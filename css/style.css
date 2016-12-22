@@ -1,0 +1,728 @@
+@font-face {
+  font-family: 'SukhumvitSet-Thin';
+  src: url(font/SukhumvitSet-Thin.ttf) format("truetype");
+}
+.area{
+  position: relative;
+}
+.left{
+  position: absolute;
+  margin-left: 409px;
+}
+.left2{
+  position: absolute;
+  margin-left: 871px;
+}
+.left3{
+  position: absolute;
+  margin-left: 409px;
+  margin-top: 450px;
+}
+body{
+  width: 100%;
+  margin: auto;
+}
+p{
+  display: block;
+  font-family: SukhumvitSet-Thin;
+  font-size: 30px;
+  color: #898a84;
+  margin: 0;
+  padding: 0;
+}
+#icon1 > p{
+  color: #75602e;
+}
+#icon2 > p{
+  color: #3e6964;
+}
+#icon3 > p{
+  color: #7a8c6b;
+}
+.icon_title{
+  font-size: 48px;
+}
+.products{
+  font-size: 24px;
+}
+.pro_name{
+  font-size: 60px;
+}
+#main{
+  position: relative;
+  z-index: 0;
+}
+#logo{
+  position: absolute;
+  z-index: 1;
+  margin-top: 14px;
+  margin-left: 26px;
+}
+ul{
+  list-style: none;
+}
+.nav{
+  position: absolute;
+  list-style: none;
+  z-index: 1;
+  margin: 46px 0 0 108px;
+  padding: 0;
+}
+.nav > li{
+  float: left;
+  margin-left: 19px;
+  margin-right: -20px;
+  margin-top: -14px;
+  padding: 0;
+  font-family: SukhumvitSet-Thin;
+  font-size: 33px;
+}
+.nav > li > a{
+  display: block;
+  padding: 0 20px 0 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000000;
+}
+.nav > li > a:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+.div_size1{
+  width: 409px;
+  height: 450px;
+  position: relative;
+  clear: both;
+}
+.div_size2{
+  width: 871px;
+  height: 450px;
+  position: relative;
+  float: left;
+}
+/*area1*/
+#icon1{
+  background-color: #eac15d;
+  margin-top: -6px;
+}
+#icon1 > a > img{
+  position: absolute;
+  margin: 165px 50px 74px 67px;
+}
+#cooking{
+  position: absolute;
+  margin: 320px 129px 5px 129px;
+}
+#spro1{
+  position: absolute;
+  margin: 371px 149px 55px 149px;
+}
+#pro1{
+  background-color: #e9e9e5;
+}
+#price1{
+  position: absolute;
+  margin: 91px 0 0 31px;
+}
+#pro1 > img{
+  position: absolute;
+  margin: 70px 0 0 382px;
+}
+#product1{
+  position: absolute;
+  text-align: center;
+  margin: 148px 90px 171px 654px;
+}
+
+/*area2*/
+#pro2{
+  background-color: #ffffff;
+}
+#price2{
+  position: absolute;
+  margin: 90px 0 0 31px;
+}
+#pro2 > img{
+  position: absolute;
+  margin: 45px 0 0 230px;
+}
+#product2{
+  position: absolute;
+  text-align: center;
+  margin: 155px 0 0 494px;
+}
+#icon2{
+  background-color: #7cd3c8;
+}
+#icon2 > a > img{
+  position: absolute;
+  margin: 74px 0 0 124px;
+  z-index: 2;
+}
+#household{
+  position: absolute;
+  font-size: 35px;
+  margin: 333px 0 0 75px;
+}
+#spro2{
+  position: absolute;
+  margin: 373px 0 0 149px;
+}
+
+/*area3*/
+#icon3{
+  background-color: #bfdba7;
+}
+#icon3 > a > img{
+  position: absolute;
+  margin: 138px 0 0 76px;
+}
+#serving{
+  position: absolute;
+  margin: 330px 0 0 137px;
+}
+#spro3{
+  position: absolute;
+  margin: 387px 0 0 147px;
+}
+#pro3{
+  background-color: #f4f4d8;
+}
+#price3{
+  position: absolute;
+  margin: 91px 0 0 31px;
+}
+#pro3 > img{
+  position: absolute;
+  margin: 56px 0 0 256px;
+}
+#product3{
+  position: absolute;
+  text-align: center;
+  margin: 90px 0 0 535px;
+}
+
+footer{
+  clear: both;
+  height: 102px;
+  position: relative;
+}
+footer > p{
+  position: absolute;
+  margin: 36px 513px 30px 513px;
+}
+.dropdown{
+display: none;
+}
+
+
+@media screen and (max-width: 720px){
+
+  @font-face {
+    font-family: 'SukhumvitSet-Thin';
+    src: url(font/SukhumvitSet-Thin.ttf) format("truetype");
+  }
+
+  .area{
+    position: relative;
+  }
+  .left{
+    position: absolute;
+    margin-left: 225px;
+  }
+  .left2{
+    position: absolute;
+    margin-left: 496px;
+  }
+  .left3{
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 450px;
+  }
+  body{
+    max-width: 760px;
+    margin: auto;
+  }
+  p{
+    display: block;
+    font-family: SukhumvitSet-Thin;
+    font-size: 30px;
+    color: #898a84;
+    margin: 0;
+    padding: 0;
+  }
+  #icon1 > p{
+    color: #75602e;
+  }
+  #icon2 > p{
+    color: #3e6964;
+  }
+  #icon3 > p{
+    color: #7a8c6b;
+  }
+  .icon_title{
+    font-size: 48px;
+  }
+  .products{
+    font-size: 24px;
+  }
+  .pro_name{
+    font-size: 60px;
+  }
+  #main{
+    position: relative;
+    z-index: 0;
+    max-width: 720px;
+  }
+  #logo{
+    position: absolute;
+    z-index: 1;
+    margin-top: 14px;
+    margin-left: 26px;
+    width: 50px;
+  }
+  ul{
+    list-style: none;
+  }
+  .nav{
+    position: absolute;
+    list-style: none;
+    z-index: 1;
+    margin: 46px 0 0 68px;
+    padding: 0;
+  }
+  .nav > li{
+    float: left;
+    margin-left: 19px;
+    margin-right: -20px;
+    margin-top: -14px;
+    padding: 0;
+    font-family: SukhumvitSet-Thin;
+    font-size:18px;
+  }
+  .nav > li > a{
+    display: block;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .nav > li > a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+  }
+  .div_size1{
+    width: 225px;
+    height: 250px;
+    position: relative;
+    clear: both;
+  }
+  .div_size2{
+    width: 496px;
+    height: 250px;
+    position: relative;
+    float: left;
+  }
+  /*area1*/
+  #icon1{
+    background-color: #eac15d;
+    margin-top: -6px;
+  }
+  #icon1 > a > img{
+    position: absolute;
+    max-width: 60%;
+    margin: 90px 0px 7px 47px;
+  }
+  #cooking{
+    position: absolute;
+    margin: 170px 0px 5px 60px;
+    font-size: 30px;
+  }
+  #pro1{
+    background-color: #e9e9e5;
+  }
+  #price1{
+    position: absolute;
+    margin: 40px 0 0 23px;
+    font-size: 20px;
+
+  }
+  #pro1 > img{
+    max-width: 25%;
+    position: absolute;
+    margin: 40px 0 0 250px;
+  }
+  #product1{
+    position: absolute;
+    margin: 68px 0px 5px 380px;
+    font-size: 30px;
+  }
+  #spro1{
+    position: absolute;
+    margin: 203px 0px 5px 77px;
+    font-size: 13px;
+  }
+
+  /*area2*/
+  #pro2{
+    background-color: #ffffff;
+  }
+  #price2{
+    position: absolute;
+    margin: 40px 0 0 31px;
+    font-size: 18px;
+  }
+  #pro2 > img{
+    max-width: 28%;
+    position: absolute;
+    margin: 25px 0 0 150px;
+  }
+  #product2{
+    position: absolute;
+    text-align: center;
+    margin: 70px 0 0 300px;
+    font-size: 35px;
+  }
+  #icon2{
+    background-color: #7cd3c8;
+
+  }
+  #icon2 > a > img{
+    max-width: 40%;
+    position: absolute;
+    margin: 45px 0 0 75px;
+    z-index: 2;
+  }
+  #household{
+    position: absolute;
+    font-size: 20px;
+    margin: 190px 0 0 45px;
+  }
+  #spro2{
+    position: absolute;
+    margin: 213px 0px 5px 87px;
+    font-size: 13px;
+  }
+
+  /*area3*/
+  #icon3{
+    background-color: #bfdba7;
+  }
+  #icon3 > a > img{
+    position: absolute;
+    max-width: 65%;
+    margin: 70px 0px 7px 40px;
+  }
+  #serving{
+    position: absolute;
+    margin: 175px 0px 5px 60px;
+    font-size: 30px;
+  }
+  #spro3{
+    position: absolute;
+    margin: 208px 0px 5px 77px;
+    font-size: 13px;
+  }
+  #pro3{
+    background-color: #f4f4d8;
+    margin: -200px 0 0 0px;
+  }
+  #price3{
+    position: absolute;
+    margin: 40px 0 0 23px;
+    font-size: 18px;
+  }
+  #pro3 > img{
+    max-width: 32%;
+    position: absolute;
+    margin: 30px 0 0 160px;
+  }
+  #product3{
+    position: absolute;
+    font-size: 32px;
+    margin: 55px 0 0 315px;
+  }
+
+  footer{
+    clear: both;
+    max-height: 30px;
+    margin-left: -225px;
+    margin-top: -25px;
+  }
+  footer > p{
+
+
+    font-size: 25px;
+
+  }
+.dropdown{
+display: none;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 360px){
+
+  @font-face {
+    font-family: 'SukhumvitSet-Thin';
+    src: url(font/SukhumvitSet-Thin.ttf) format("truetype");
+  }
+
+  .area{
+    position: relative;
+  }
+  .left{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 120px;
+  }
+  .left2{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 225px;
+
+  }
+  .left3{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 895px;
+  }
+  body{
+    max-width: 360px;
+    margin: auto;
+  }
+  p{
+    display: block;
+    font-family: SukhumvitSet-Thin;
+    font-size: 30px;
+    color: #898a84;
+    margin: 0;
+    padding: 0;
+  }
+  #icon1 > p{
+    color: #75602e;
+  }
+  #icon2 > p{
+    color: #3e6964;
+  }
+  #icon3 > p{
+    color: #7a8c6b;
+  }
+  .icon_title{
+    font-size: 48px;
+  }
+  .products{
+    font-size: 24px;
+  }
+  .pro_name{
+    font-size: 60px;
+  }
+  #main{
+    position: relative;
+    z-index: 0;
+    max-width: 360px;
+  }
+  #logo{
+    position: absolute;
+    z-index: 1;
+    margin-top: 14px;
+    margin-left: 155px;
+    max-width: 45px;
+  }
+  ul{
+    list-style: none;
+  }
+  .nav{
+    display: none;
+    position: absolute;
+    list-style: none;
+    z-index: 1;
+    margin: 46px 0 0 108px;
+    padding: 0;
+  }
+  .nav > li{
+    float: left;
+    margin-left: 19px;
+    margin-right: -20px;
+    margin-top: -14px;
+    padding: 0;
+    font-family: SukhumvitSet-Thin;
+    font-size:18px;
+  }
+  .nav > li > a{
+    display: block;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .nav > li > a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+  }
+  .div_size1{
+    width: 360px;
+    height: 120px;
+    position: relative;
+    clear: both;
+  }
+  .div_size2{
+    width:360px;
+    height: 225px;
+    position: relative;
+    float: left;
+  }
+  /*area1*/
+  #icon1{
+    background-color: #eac15d;
+    margin-top: -6px;
+  }
+  #icon1 > a > img{
+    position: absolute;
+    max-width: 30%;
+    margin: 40px 0px 7px 40px;
+  }
+  #cooking{
+    position: absolute;
+    margin: 30px 0px 5px 200px;
+    font-size: 30px;
+  }
+  #pro1{
+    background-color: #e9e9e5;
+
+  }
+  #price1{
+    position: absolute;
+    margin: 40px 0 0 20px;
+    font-size: 13px;
+
+  }
+  #pro1 > img{
+    max-width: 30%;
+    position: absolute;
+    margin: 40px 0 0 175px;
+  }
+  #product1{
+    position: absolute;
+    margin: 68px 0px 5px 285px;
+    font-size: 23px;
+  }
+  #spro1{
+    position: absolute;
+    margin: 62px 0px 5px 215px;
+    font-size: 14px;
+  }
+
+  /*area2*/
+  #pro2{
+    background-color: #ffffff;
+        margin-top: 350px;
+  }
+  #price2{
+    position: absolute;
+    margin: 40px 0 0 20px;
+    font-size: 13px;
+
+  }
+  #pro2 > img{
+    max-width: 35%;
+    position: absolute;
+    margin: 20px 0 0 100px;
+  }
+  #product2{
+    position: absolute;
+    text-align: center;
+    margin: 70px 0 0 225px;
+    font-size: 23px;
+  }
+  #icon2{
+    background-color: #7cd3c8;
+
+  }
+  #icon2 > a > img{
+    max-width: 18%;
+    position: absolute;
+    margin: 10px 0 0 50px;
+    z-index: 2;
+  }
+  #household{
+    position: absolute;
+    font-size: 20px;
+    margin: 40px 0 0 175px;
+  }
+  #spro2{
+    position: absolute;
+    margin: 63px 0px 5px 217px;
+    font-size: 13px;
+  }
+
+  /*area3*/
+  #icon3{
+    background-color: #bfdba7;
+
+  }
+  #icon3 > a > img{
+    position: absolute;
+    max-width: 35%;
+    margin: 20px 0px 7px 40px;
+  }
+  #serving{
+    position: absolute;
+    margin: 30px 0px 5px 200px;
+    font-size: 33px;
+  }
+  #spro3{
+
+    position: absolute;
+    margin: 62px 0px 5px 215px;
+    font-size: 14px;
+  }
+  #pro3{
+    background-color: #f4f4d8;
+    margin: -200px 0 0 0px;
+  }
+  #price3{
+    position: absolute;
+    margin: 40px 0 0 20px;
+    font-size: 13px;
+
+  }
+  #pro3 > img{
+    max-width: 40%;
+    position: absolute;
+    margin: 30px 0 0 117px;
+  }
+  #product3{
+    position: absolute;
+    font-size: 20px;
+    margin: 75px 0 0 240px;
+  }
+
+  footer{
+    clear: both;
+    max-height: 30px;
+    margin-top: 200px;
+    margin-left: -400px;
+  }
+  footer > p{
+
+
+    font-size: 20px;
+
+  }
+.left{
+
+  display: block;
+
+}
+
+.dropdown{
+display: block;
+position: absolute;
+z-index: 2;
+}
+
+}
